@@ -1,0 +1,80 @@
+.careerInfo{
+    flex: 9;
+}
+h5{
+    border-bottom: 1px solid #a7a4a4;
+    width: 96%;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contactItem{
+    font-family: 'Josefin Sans', sans-serif;
+    display: grid;
+    place-items: left;
+    display: inline-block;
+    margin-top: 15px;
+    line-height: 10px;
+}
+.contactItem > a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #0000EE;
+}
+.summary{
+    padding-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.designation{
+    padding-top: 20px;
+}
+.designationList{
+    list-style: none;
+}
+.designationItem{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.technicalSkills{
+    padding-top: 20px;
+    font-family: 'Josefin Sans' , sans-serif;
+    line-height: 40px;
+}
+.technicalSkillsheader{
+    font-family: 'Lora', sans-serif;
+    font-weight: bold;
+}
+.certification{
+    padding-top: 20px;
+    margin-left: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.roles{
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.bulletPoint{
+    font-size: 5px;
+    margin-right: 10px;
+}
+.roles >ul>  li{
+    list-style: none;
+    margin-left: -41px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 40px;
+}
+.education{
+    padding-top: 20px;
+    margin-left: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
